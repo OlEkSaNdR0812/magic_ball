@@ -1,0 +1,43 @@
+
+:root{
+	--sizeindex: calc(1vw+1vh);
+}
+body{
+	background: url(img/magic_ball.jpg) ;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 100%;
+	font-size:calc(var()--sizeindex);
+}
+.center{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	height:85%;
+	max-width: 300 px;
+	position:absolute;
+	top:calc(50%-150px);
+	left:0;
+	right:0;
+	margin:0 auto;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	text-shadow:
+    1px 1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    -1px -1px 0 black;
+
+}
+#string{ 
+   	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 40%;
+	width: 23%;
+	height: 15px;
+	border: 1px solid #ff8c00;
+	font-size: 30px;
+}
